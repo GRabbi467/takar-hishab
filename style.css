@@ -1,0 +1,68 @@
+*{
+    border: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+h1,h3{
+    color:#070f4e;
+    text-align: center;
+}
+img{
+   width: 60%;
+   margin: 50px;
+}
+
+.hishab{
+    width: 40%;
+    background-color:#ececec;
+    margin: 50px 50px 50px;
+    padding: 100px;
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.bTn{
+    text-align: center;
+    background-color:#00bbf0;
+    border: 1px solid #00bbf0;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    text-align: center;
+  }
+
+.bTn:hover{
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(2px);
+
+}
+input[type=text] {
+    color: black;
+    padding: 10px;
+    margin:10px 0;
+    border: 2px solid #eee;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:5px;
+
+  }

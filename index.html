@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome link
+    <script src="https://kit.fontawesome.com/fa330eff78.js" crossorigin="anonymous"></script> -->
+    <link rel="shortcut icon" href="images/Taka-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="fa/css/all.min.css">
+    <link rel="stylesheet" href="fa/css/fontawesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+    <title>TAKAR HISHAB</title>
+</head>
+    <body>
+        <h1 > TAKAR HISHAB <i class="fa-solid fa-sack-dollar"></i></h1>
+        <main class="main">
+            <img class="money" src="images/moneysavings.jpg" alt="taka" >
+            <div class="hishab">
+                <div class="income">
+                    <h3>INCOME</h3>
+                  INCOME:  <input  type="text" id="income">
+                </div>
+
+                <div class="expense-container">
+                    <h3>EXPENSE</h3>
+                   FOOD:    <input id="food" type="text" name="" class="expense"> <br>
+                   RENT:    <input id="rent" type="text" name="" class="expense"> <br>
+                   CLOTHES: <input id="clothes" type="text" name="" class="expense"> <br>
+                   <button type="submit" class="bTn" id="calcBtn">Calculate</button>
+
+                </div> <br>
+                <div class="display">Total Expense : ৳<span id="totalExpense"> 0.00</span> </div> <br>
+                <div class="display"> Balance : ৳ <span id="balance">0.00</span></div> <br> 
+                Save :<input type="text" name="" id="save"> <span> % </span> <button class="bTn" id="saveBtn" type="submit">Save</button> <br> <br>
+                <div class="display" >Savings Amount : ৳ <span id="savings">00.00</span></div> <br>
+                <div class="display"> Remaining Balance :৳<span id="remain">00.00</span></div>
+            </div>
+
+
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
